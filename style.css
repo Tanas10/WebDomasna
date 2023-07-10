@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+background: linear-gradient(to bottom, #9eacd9, #834ca6);
+
+}
+*{
+    font-family: Arial;
+}
+.header{
+
+}
+.header span:first-of-type a{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+    padding-top: -50px;
+    text-decoration: none;
+    transition: .6s;
+}
+.header span:first-of-type a:hover{
+    color: white;
+    transition: .6s;
+}
+.header .icon{
+    background: url("./img/icon.png") no-repeat;
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 0;
+    padding-top: 35px;
+    margin-bottom: -25px;
+}
+.header ul{
+    list-style: none;
+margin-top: 20px;
+    float: right;
+    display: inline-flex;
+    padding-right: 160px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .6s;
+}
+.header ul li a:hover{
+    color: white;
+    transition: .6s;
+}
+.header ul li{
+    float: left;
+    padding: 10px;
+    margin-right: 40px;
+}
+.image{
+    background: url("./img/concert.jpg")no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+.onpage{
+    background: rgba(0, 0, 0, 0.25);
+    border: rgba(0, 0, 0, 0.39) solid 1px;
+    border-radius: 5px;
+}
+.Ccontent{
+    background: rgba(0, 0, 0, 0.60);
+    width: 74%;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.Ccontent form{
+color: white;
+    font-weight: bold;
+}
+.Ccontent form #name,.Ccontent form #email{
+    width: 400px;
+}
+.Ccontent form #message{
+    resize: none;
+    width: 400px;
+    height: 200px;
+}
+.Ccontent form #submit{
+    margin-top: 10px;
+}
+.Econtent, .Ncontent{
+    margin-top: 50px;
+}
+.Econtent .Event1{
+    background: rgba(0, 0, 0, 0.30);
+    width: 74%;
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+}
+.Econtent .Event1 img{
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+}
+.Econtent .Event1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Econtent .Event1 div{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.Event1 span:last-of-type{
+    font-weight: bold;
+}
+.Event1 span:last-of-type a{
+    color:darkred;
+    padding-left: 20px;
+}
+.Econtent .Event1:last-of-type{
+    margin-bottom: 100px;
+}
+.Ncontent{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Ncontent .new{
+    background: rgba(0, 0, 0, 0.20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 340px;
+    width: 340px;
+    margin: auto;
+
+}
+.Ncontent .new img {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.Ncontent .new div h2{
+text-align: center;
+}
+.Ncontent .new a{
+    color: darkred;
+    font-weight: bold;
+}
+.Ncontent:last-of-type{
+    margin-bottom: 200px;
+}
+.content span h2{
+text-align: center;
+}
+.content span a{
+    color: darkred;
+}
+.footer{
+    margin-top: 50px;
+    background: #525252;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
